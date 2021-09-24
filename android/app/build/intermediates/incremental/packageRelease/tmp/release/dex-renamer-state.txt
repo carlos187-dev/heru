@@ -1,0 +1,7 @@
+#Fri Sep 24 14:41:41 CDT 2021
+base.1=/Users/creyes187/Documents/test/MyApp/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Users/creyes187/Documents/test/MyApp/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

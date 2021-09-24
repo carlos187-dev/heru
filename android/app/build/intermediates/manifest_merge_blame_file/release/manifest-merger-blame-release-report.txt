@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+13-->[:react-native-maps] /Users/creyes187/Documents/test/MyApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-81
+13-->[:react-native-maps] /Users/creyes187/Documents/test/MyApp/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+19
+20    <application
+20-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:7:5-28:19
+21        android:name="com.myapp.MainApplication"
+21-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:8:7-38
+22        android:allowBackup="false"
+22-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:12:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.6.0] /Users/creyes187/.gradle/caches/transforms-3/d9b71328e8ba86dc125344804cb6eb44/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:10:7-41
+25        android:label="@string/app_name"
+25-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:9:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:11:7-52
+27        android:theme="@style/AppTheme" >
+27-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:13:7-38
+28        <meta-data
+28-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:14:7-16:66
+29            android:name="com.google.android.geo.API_KEY"
+29-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:15:9-54
+30            android:value="AIzaSyD2qcZxpPyxFHjmbA23JuBVribujb5TEFA" />
+30-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:16:9-64
+31
+32        <activity
+32-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:17:7-27:18
+33            android:name="com.myapp.MainActivity"
+33-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:18:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+34-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:20:9-86
+35            android:label="@string/app_name"
+35-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:19:9-41
+36            android:launchMode="singleTask"
+36-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:21:9-40
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:22:9-51
+38            <intent-filter>
+38-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:23:9-26:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:24:13-65
+39-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:24:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:25:13-73
+41-->/Users/creyes187/Documents/test/MyApp/android/app/src/main/AndroidManifest.xml:25:23-70
+42            </intent-filter>
+43        </activity>
+44        <!-- Needs to be explicitly declared on P+ -->
+45        <uses-library
+45-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+46            android:name="org.apache.http.legacy"
+46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+47            android:required="false" />
+47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/a200cf77db3a5c88e1dfdbfa31b5050b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+48
+49        <activity
+49-->[com.google.android.gms:play-services-base:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/c099f34bb597d03b4b670af755f47f98/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/d2aab5a9146bf1ef884137d70b855134/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/d2aab5a9146bf1ef884137d70b855134/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:17.0.0] /Users/creyes187/.gradle/caches/transforms-3/d2aab5a9146bf1ef884137d70b855134/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+57    </application>
+58
+59</manifest>
